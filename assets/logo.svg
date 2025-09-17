@@ -1,0 +1,17 @@
+<svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="26" cy="26" r="25" fill="#00b4d8" stroke="#38b000" stroke-width="2"/>
+<g>
+  <ellipse cx="26" cy="26" rx="13" ry="18" fill="#fff" stroke="#38b000" stroke-width="2"/>
+  <ellipse cx="26" cy="26" rx="7" ry="10" fill="#b7e4c7" stroke="#00b4d8" stroke-width="2"/>
+  <circle cx="26" cy="26" r="3" fill="#38b000"/>
+  <line x1="26" y1="8" x2="26" y2="18" stroke="#38b000" stroke-width="2"/>
+  <line x1="26" y1="34" x2="26" y2="44" stroke="#38b000" stroke-width="2"/>
+  <line x1="8" y1="26" x2="18" y2="26" stroke="#38b000" stroke-width="2"/>
+  <line x1="34" y1="26" x2="44" y2="26" stroke="#38b000" stroke-width="2"/>
+  <line x1="15" y1="15" x2="22" y2="22" stroke="#00b4d8" stroke-width="2"/>
+  <line x1="30" y1="30" x2="37" y2="37" stroke="#00b4d8" stroke-width="2"/>
+  <line x1="15" y1="37" x2="22" y2="30" stroke="#00b4d8" stroke-width="2"/>
+  <line x1="30" y1="22" x2="37" y2="15" stroke="#00b4d8" stroke-width="2"/>
+</g>
+<text x="26" y="50" text-anchor="middle" font-size="8" fill="#38b000" font-family="Arial, sans-serif">VNS</text>
+</svg>
