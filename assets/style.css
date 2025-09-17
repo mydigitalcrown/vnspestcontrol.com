@@ -1,3 +1,57 @@
+/* --- Blog Page Styles --- */
+.blog-list {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 2rem;
+	margin-top: 2rem;
+}
+.blog-post {
+	background: #fff;
+	border-radius: 8px;
+	box-shadow: 0 2px 12px rgba(0,180,216,0.07);
+	padding: 1.5rem;
+	flex: 1 1 320px;
+	min-width: 280px;
+	max-width: 400px;
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}
+.blog-post h2 {
+	color: #38b000;
+	font-size: 1.3rem;
+	margin-bottom: 0.5rem;
+}
+.blog-post p {
+	color: #333;
+	font-size: 1rem;
+}
+
+/* --- Login Page Styles --- */
+.login-form {
+	background: #fff;
+	padding: 2rem;
+	border-radius: 8px;
+	box-shadow: 0 2px 12px rgba(0,180,216,0.07);
+	max-width: 400px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}
+.login-form label {
+	font-weight: 500;
+	color: #0077b6;
+}
+.login-form input {
+	padding: 0.7rem;
+	border: 1px solid #b7e4c7;
+	border-radius: 4px;
+	font-size: 1rem;
+}
+.login-form button {
+	align-self: flex-start;
+}
 /* --- Creative Header & Logo Styles --- */
 .header-flex {
 	display: flex;

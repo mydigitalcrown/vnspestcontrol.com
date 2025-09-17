@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pest Control in Varanasi | Services</title>
+    <title>Login | VNS Pest Control</title>
+    <meta name="description" content="Login to VNS Pest Control admin to add or manage blog content.">
     <link rel="stylesheet" href="assets/style.css">
+    <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
 </head>
 <body>
     <header>
@@ -20,22 +22,21 @@
                     <li><a href="about.html">About</a></li>
                     <li><a href="contact.html">Contact</a></li>
                     <li><a href="blog.html">Blog</a></li>
-                    <li><a href="login.html">Login</a></li>
                 </ul>
             </nav>
         </div>
     </header>
-    <section class="services">
+    <section class="login" aria-label="Admin Login">
         <div class="container">
-            <h2>Our Pest Control Services</h2>
-            <ul>
-                <li>Termite Control</li>
-                <li>Cockroach Control</li>
-                <li>Rodent Control</li>
-                <li>Bed Bug Treatment</li>
-                <li>Ant Control</li>
-                <li>General Disinfestation</li>
-            </ul>
+            <h1>Admin Login</h1>
+            <form action="#" method="post" class="login-form">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <button type="submit" class="btn">Login</button>
+            </form>
+            <p style="margin-top:1rem;color:#888;">(Demo only: No backend functionality implemented)</p>
         </div>
     </section>
     <footer>
